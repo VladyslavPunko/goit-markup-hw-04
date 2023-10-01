@@ -398,6 +398,31 @@ ol {
   row-gap: 48px;
 }
 
+.img-plus-text{position: relative;}
+
+.portfolio-cover{position: absolute;
+height: 100%;
+top:0;
+color: var(--CLOUD, #F4F4FD);
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+background: var(--IRIS, #4D5AE5);
+padding: 40px 32px; 
+transform: translateY(100%);
+transition-property: transform;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.portfolio-list-item:hover .portfolio-cover{transform: translateY(0);}
+
+.img-plus-text{overflow: hidden;}
+
 
 .portfolio-list-item{
 transition-property: background-color;
