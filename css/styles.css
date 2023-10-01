@@ -158,10 +158,11 @@ ol {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/tittle-imager.jpg);
-  /* background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
+
 .tittle-name {
   color: var(--WHITE, #fff);
   text-align: center;
