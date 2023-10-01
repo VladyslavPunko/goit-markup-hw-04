@@ -81,6 +81,22 @@ ol {
   color: #404bbf;
 }
 
+.heder-list-link::after{content:'';
+  position: absolute;
+  left: 0; 
+  bottom: -1px;
+  height: 4px; 
+  background-color: #404bbf; 
+  border-radius: 2px; 
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+
 .heder-list-item::after {
   content: "";
   position: absolute;
@@ -293,6 +309,9 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center; 
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link:hover,
