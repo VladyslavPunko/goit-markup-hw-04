@@ -447,6 +447,10 @@ ol {
   justify-content: center;
 }
 
+
+.svg-clss{fill: #f4f4fd ;}
+
+
 .footer-icon:hover,
 .footer-icon:focus {
   background-color: #31d0aa;
