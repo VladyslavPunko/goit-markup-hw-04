@@ -133,6 +133,9 @@ ol {
 
 .tittle {
   max-width: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background: var(--NAVY-BLUE, #2e2f42);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -142,9 +145,9 @@ ol {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/tittle-imager.jpg);
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .tittle-name {
   color: var(--WHITE, #fff);
