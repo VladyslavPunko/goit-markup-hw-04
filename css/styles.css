@@ -78,7 +78,10 @@ ol {
   padding: 24px 0;
   display: block;
   position: relative;
-  color: #404bbf;
+  color: #404bbf;  
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .heder-list-link::after{content:'';
@@ -394,7 +397,15 @@ ol {
   gap: 24px;
   row-gap: 48px;
 }
-.portfolio-list-item {
+
+
+.portfolio-list-item{
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+.portfolio-list-item:hover {
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .work {
