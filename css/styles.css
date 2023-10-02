@@ -78,34 +78,26 @@ ol {
   padding: 24px 0;
   display: block;
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.heder-list-link::after {
+.studio::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
+  width: 100%;
   border-radius: 2px;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.heder-list-item::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
 .heder-list-link {
   letter-spacing: 0.02em;
 }
@@ -160,6 +152,7 @@ ol {
 }
 .adress {
   margin-left: auto;
+  font-style: normal;
 }
 /** ====section1===== */
 
@@ -177,6 +170,8 @@ ol {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tittle-name {
@@ -212,6 +207,7 @@ ol {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .tittle-button:hover {
@@ -418,7 +414,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background: var(--IRIS, #4d5ae5);
-  padding: 40px 32px;
+  padding: 40px 32px 164px 32px;
   transform: translateY(100%);
   transition-property: transform;
   transition-duration: 250ms;
